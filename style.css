@@ -49,6 +49,15 @@ article{
     border-radius:10px;
 }
 
+.banner{
+    width:100%;
+    max-width:700px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
 article section{
     margin-bottom:30px;
 }
@@ -99,4 +108,10 @@ footer{
     text-align:center;
     padding:20px;
     margin-top:20px;
+}
+
+@media (max-width:768px){
+    main{
+        flex-direction:column;
+    }
 }
